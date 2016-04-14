@@ -5,3 +5,13 @@ security:
 management:
   security:
     enabled: false
+
+logging:
+  level:
+    io:
+      pivotal: DEBUG
+
+greeting:
+  desplayFortune: false
+
+quoteServiceURL: http://quote-service-dev.cfapps.io/quote
