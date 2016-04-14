@@ -6,12 +6,12 @@ management:
   security:
     enabled: false
 
-logging:
+logging: # <----New sections below
   level:
     io:
       pivotal: DEBUG
 
 greeting:
-  desplayFortune: false
+  displayFortune: false
 
 quoteServiceURL: http://quote-service-dev.cfapps.io/quote
